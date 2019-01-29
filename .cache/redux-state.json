@@ -1,0 +1,1430 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/seanhelmes/Desktop/blog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9202a707d0ec35dcb37e6330a1f1d569",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "421c228204d49ffc9d229b53f0315fe6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3b10fa89a8014eae896c164c2503d090",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8d023e2df7716e3b66e48613ef3afa3f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "efefcca6eb2758d87df5da744ff219d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "785577487ce1b2df139b6ec3bcabd6a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "61416b6eb73d854cd1f2f74dc953a58f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.1-rc.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.1-rc.5",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a95f6873c6fe8eafda533848a57c356a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8b1b9397-c732-5416-a22d-cab03176cec6": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby-source-filesystem",
+      "id": "8b1b9397-c732-5416-a22d-cab03176cec6",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.1-rc.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/seanhelmes/Desktop/blog/src/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.1-rc.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "675d3d22f0fed8e67534e97e6d5fb9e8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/seanhelmes/Desktop/blog",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "6094bf47cc8558533b0c6b1a494b4a15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "A simplified bare-bones starter for Gatsby",
+        "version": "0.1.0",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.1-rc.6"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.1-rc.5"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0485ef77dd83f5de2dd94361b65c701a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0fb7faaa-d70a-55a7-ad31-5a99cf6ce926": {
+      "resolve": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby-plugin-page-creator",
+      "id": "0fb7faaa-d70a-55a7-ad31-5a99cf6ce926",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/seanhelmes/Desktop/blog/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanhelmes/Desktop/blog/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa3e6c4a07327e1adc95f7e8d5633bee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "G's Blog",
+        "description": "This is a very cool blog"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-29T20:42:02.348Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dc4aeb596f7c2763bc5786e6c0a721c8",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "639ade28-e54e-5675-b507-07caea17468c": {
+      "id": "639ade28-e54e-5675-b507-07caea17468c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "669bfcfccd1167575b650b46002cd53c",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2019-01-29T17:04:20.510Z",
+      "accessTime": "2019-01-29T20:42:06.416Z",
+      "changeTime": "2019-01-29T17:04:20.510Z",
+      "birthTime": "2019-01-29T16:54:48.274Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609819006,
+      "blocks": 0,
+      "atimeMs": 1548794526416.4446,
+      "mtimeMs": 1548781460509.8293,
+      "ctimeMs": 1548781460509.8293,
+      "birthtimeMs": 1548780888273.5696,
+      "atime": "2019-01-29T20:42:06.416Z",
+      "mtime": "2019-01-29T17:04:20.510Z",
+      "ctime": "2019-01-29T17:04:20.510Z",
+      "birthtime": "2019-01-29T16:54:48.274Z"
+    },
+    "391fb0fc-1da0-5be5-ba59-cad93e8a1593": {
+      "id": "391fb0fc-1da0-5be5-ba59-cad93e8a1593",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc1a29049a70b3e3edd5fae57f7532f2",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2018-07-21-first-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-21-first-post",
+      "relativePath": "2018-07-21-first-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-01-29T17:04:32.855Z",
+      "accessTime": "2019-01-29T20:42:06.419Z",
+      "changeTime": "2019-01-29T17:04:32.855Z",
+      "birthTime": "2019-01-29T17:03:27.232Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages",
+      "base": "2018-07-21-first-post",
+      "ext": "",
+      "name": "2018-07-21-first-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609857283,
+      "blocks": 0,
+      "atimeMs": 1548794526418.518,
+      "mtimeMs": 1548781472855.4048,
+      "ctimeMs": 1548781472855.4048,
+      "birthtimeMs": 1548781407232.0654,
+      "atime": "2019-01-29T20:42:06.419Z",
+      "mtime": "2019-01-29T17:04:32.855Z",
+      "ctime": "2019-01-29T17:04:32.855Z",
+      "birthtime": "2019-01-29T17:03:27.232Z"
+    },
+    "fafcc7c6-b3ca-5492-928b-dfbca7526f4c": {
+      "id": "fafcc7c6-b3ca-5492-928b-dfbca7526f4c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "010beda56ac7135f3caaf5259a88996a",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2018-07-22-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-22-second-post",
+      "relativePath": "2018-07-22-second-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-01-29T17:04:53.932Z",
+      "accessTime": "2019-01-29T20:42:06.418Z",
+      "changeTime": "2019-01-29T17:04:53.932Z",
+      "birthTime": "2019-01-29T17:03:56.200Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages",
+      "base": "2018-07-22-second-post",
+      "ext": "",
+      "name": "2018-07-22-second-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609857288,
+      "blocks": 0,
+      "atimeMs": 1548794526418.4666,
+      "mtimeMs": 1548781493932.0176,
+      "ctimeMs": 1548781493932.0176,
+      "birthtimeMs": 1548781436200.0232,
+      "atime": "2019-01-29T20:42:06.418Z",
+      "mtime": "2019-01-29T17:04:53.932Z",
+      "ctime": "2019-01-29T17:04:53.932Z",
+      "birthtime": "2019-01-29T17:03:56.200Z"
+    },
+    "4ae2a0b4-6ff9-5817-9393-fa4efac8ae66": {
+      "id": "4ae2a0b4-6ff9-5817-9393-fa4efac8ae66",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d0c714675820462b7e15d510dd6291eb",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2018-07-23-third-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-23-third-post",
+      "relativePath": "2018-07-23-third-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-01-29T17:05:05.290Z",
+      "accessTime": "2019-01-29T20:42:06.418Z",
+      "changeTime": "2019-01-29T17:05:05.290Z",
+      "birthTime": "2019-01-29T17:04:20.510Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages",
+      "base": "2018-07-23-third-post",
+      "ext": "",
+      "name": "2018-07-23-third-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609857303,
+      "blocks": 0,
+      "atimeMs": 1548794526418.4155,
+      "mtimeMs": 1548781505290.0693,
+      "ctimeMs": 1548781505290.0693,
+      "birthtimeMs": 1548781460509.8103,
+      "atime": "2019-01-29T20:42:06.418Z",
+      "mtime": "2019-01-29T17:05:05.290Z",
+      "ctime": "2019-01-29T17:05:05.290Z",
+      "birthtime": "2019-01-29T17:04:20.510Z"
+    },
+    "34ed63c9-e6cb-53c2-9d03-ae840c96d0c6": {
+      "id": "34ed63c9-e6cb-53c2-9d03-ae840c96d0c6",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3e7ec0bc8f892d3afe814df28a42753a",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1080,
+      "prettySize": "1.08 kB",
+      "modifiedTime": "2019-01-29T20:51:19.629Z",
+      "accessTime": "2019-01-29T20:51:19.629Z",
+      "changeTime": "2019-01-29T20:51:19.629Z",
+      "birthTime": "2019-01-29T16:54:48.274Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609819007,
+      "blocks": 8,
+      "atimeMs": 1548795079628.674,
+      "mtimeMs": 1548795079629.1711,
+      "ctimeMs": 1548795079629.1711,
+      "birthtimeMs": 1548780888273.6445,
+      "atime": "2019-01-29T20:51:19.629Z",
+      "mtime": "2019-01-29T20:51:19.629Z",
+      "ctime": "2019-01-29T20:51:19.629Z",
+      "birthtime": "2019-01-29T16:54:48.274Z"
+    },
+    "8e8a5fe6-c479-527e-9db1-5fa19ae8ead5": {
+      "id": "8e8a5fe6-c479-527e-9db1-5fa19ae8ead5",
+      "children": [
+        "c9755586-8023-5c1a-84f6-35d26d2a3599"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b25a9527599ecf1e120e8f2184ac4acd",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/2018-07-22-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-22-second-post/index.md",
+      "relativePath": "2018-07-22-second-post/index.md",
+      "extension": "md",
+      "size": 1374,
+      "prettySize": "1.37 kB",
+      "modifiedTime": "2019-01-29T18:46:24.759Z",
+      "accessTime": "2019-01-29T20:22:52.894Z",
+      "changeTime": "2019-01-29T18:46:24.759Z",
+      "birthTime": "2019-01-29T17:04:53.932Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-22-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-07-22-second-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609857312,
+      "blocks": 8,
+      "atimeMs": 1548793372894.0415,
+      "mtimeMs": 1548787584759.0198,
+      "ctimeMs": 1548787584759.0198,
+      "birthtimeMs": 1548781493932,
+      "atime": "2019-01-29T20:22:52.894Z",
+      "mtime": "2019-01-29T18:46:24.759Z",
+      "ctime": "2019-01-29T18:46:24.759Z",
+      "birthtime": "2019-01-29T17:04:53.932Z"
+    },
+    "0700706a-be86-58f5-a3dd-77f6a92748d8": {
+      "id": "0700706a-be86-58f5-a3dd-77f6a92748d8",
+      "children": [
+        "ed2920b4-0771-5109-badf-891b0cfd055e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e8375761822aad42603a66d7f71866e4",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/2018-07-21-first-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-21-first-post/index.md",
+      "relativePath": "2018-07-21-first-post/index.md",
+      "extension": "md",
+      "size": 1373,
+      "prettySize": "1.37 kB",
+      "modifiedTime": "2019-01-29T17:09:35.615Z",
+      "accessTime": "2019-01-29T20:22:52.894Z",
+      "changeTime": "2019-01-29T17:09:35.615Z",
+      "birthTime": "2019-01-29T17:04:32.855Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-21-first-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-07-21-first-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609857304,
+      "blocks": 8,
+      "atimeMs": 1548793372893.8823,
+      "mtimeMs": 1548781775614.5103,
+      "ctimeMs": 1548781775614.5103,
+      "birthtimeMs": 1548781472855.3936,
+      "atime": "2019-01-29T20:22:52.894Z",
+      "mtime": "2019-01-29T17:09:35.615Z",
+      "ctime": "2019-01-29T17:09:35.615Z",
+      "birthtime": "2019-01-29T17:04:32.855Z"
+    },
+    "4ed86f72-5dac-535b-9ddd-4b0006486b11": {
+      "id": "4ed86f72-5dac-535b-9ddd-4b0006486b11",
+      "children": [
+        "5f338ec4-e0a6-5dd4-b59a-17f00977c761"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "07821597b96b17c848767f298c54768a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/2018-07-23-third-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-23-third-post/index.md",
+      "relativePath": "2018-07-23-third-post/index.md",
+      "extension": "md",
+      "size": 1378,
+      "prettySize": "1.38 kB",
+      "modifiedTime": "2019-01-29T18:46:56.104Z",
+      "accessTime": "2019-01-29T20:22:52.894Z",
+      "changeTime": "2019-01-29T18:46:56.104Z",
+      "birthTime": "2019-01-29T17:05:05.290Z",
+      "root": "/",
+      "dir": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-23-third-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-07-23-third-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8609857321,
+      "blocks": 8,
+      "atimeMs": 1548793372894.1904,
+      "mtimeMs": 1548787616103.7273,
+      "ctimeMs": 1548787616103.7273,
+      "birthtimeMs": 1548781505290.0479,
+      "atime": "2019-01-29T20:22:52.894Z",
+      "mtime": "2019-01-29T18:46:56.104Z",
+      "ctime": "2019-01-29T18:46:56.104Z",
+      "birthtime": "2019-01-29T17:05:05.290Z"
+    },
+    "c9755586-8023-5c1a-84f6-35d26d2a3599": {
+      "id": "c9755586-8023-5c1a-84f6-35d26d2a3599",
+      "children": [],
+      "parent": "8e8a5fe6-c479-527e-9db1-5fa19ae8ead5",
+      "internal": {
+        "content": "\nSlow-carb tacos fanny pack woke etsy migas asymmetrical selvage everyday carry banh mi viral flannel pabst man braid. Asymmetrical snackwave flannel iPhone, heirloom skateboard brooklyn PBR&B. Health goth brunch sartorial seitan you probably haven't heard of them fingerstache. Biodiesel tattooed retro typewriter. Etsy chia bicycle rights +1, truffaut trust fund chartreuse venmo heirloom drinking vinegar scenester la croix photo booth iceland narwhal. Glossier deep v irony food truck 8-bit.\n\nCeliac cred locavore photo booth subway tile austin salvia farm-to-table taiyaki tbh unicorn tousled kombucha whatever humblebrag. Vegan flexitarian vexillologist whatever. Pour-over neutra YOLO typewriter ethical church-key. Coloring book squid synth single-origin coffee food truck XOXO hella messenger bag.\n\nVinyl viral selvage fam keytar four loko. Blog hashtag echo park cred, pork belly skateboard dreamcatcher retro irony poke. Affogato irony tbh plaid, kombucha green juice lyft neutra subway tile flannel pitchfork portland. Crucifix mlkshk leggings jean shorts locavore. Tbh fanny pack selvage cloud bread quinoa blog ramps. Before they sold out sriracha synth palo santo, PBR&B artisan beard. Vexillologist mixtape hashtag raw denim fam.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "aa254dba003c7be35c9c9e93f20182a8",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Post #2",
+        "path": "/second-post",
+        "date": "2019-01-29",
+        "tags": [
+          "this",
+          "that"
+        ],
+        "excerpt": "This is just another preview",
+        "_PARENT": "8e8a5fe6-c479-527e-9db1-5fa19ae8ead5"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSlow-carb tacos fanny pack woke etsy migas asymmetrical selvage everyday carry banh mi viral flannel pabst man braid. Asymmetrical snackwave flannel iPhone, heirloom skateboard brooklyn PBR&B. Health goth brunch sartorial seitan you probably haven't heard of them fingerstache. Biodiesel tattooed retro typewriter. Etsy chia bicycle rights +1, truffaut trust fund chartreuse venmo heirloom drinking vinegar scenester la croix photo booth iceland narwhal. Glossier deep v irony food truck 8-bit.\n\nCeliac cred locavore photo booth subway tile austin salvia farm-to-table taiyaki tbh unicorn tousled kombucha whatever humblebrag. Vegan flexitarian vexillologist whatever. Pour-over neutra YOLO typewriter ethical church-key. Coloring book squid synth single-origin coffee food truck XOXO hella messenger bag.\n\nVinyl viral selvage fam keytar four loko. Blog hashtag echo park cred, pork belly skateboard dreamcatcher retro irony poke. Affogato irony tbh plaid, kombucha green juice lyft neutra subway tile flannel pitchfork portland. Crucifix mlkshk leggings jean shorts locavore. Tbh fanny pack selvage cloud bread quinoa blog ramps. Before they sold out sriracha synth palo santo, PBR&B artisan beard. Vexillologist mixtape hashtag raw denim fam.\n",
+      "fileAbsolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-22-second-post/index.md"
+    },
+    "ed2920b4-0771-5109-badf-891b0cfd055e": {
+      "id": "ed2920b4-0771-5109-badf-891b0cfd055e",
+      "children": [],
+      "parent": "0700706a-be86-58f5-a3dd-77f6a92748d8",
+      "internal": {
+        "content": "\nSlow-carb tacos fanny pack woke etsy migas asymmetrical selvage everyday carry banh mi viral flannel pabst man braid. Asymmetrical snackwave flannel iPhone, heirloom skateboard brooklyn PBR&B. Health goth brunch sartorial seitan you probably haven't heard of them fingerstache. Biodiesel tattooed retro typewriter. Etsy chia bicycle rights +1, truffaut trust fund chartreuse venmo heirloom drinking vinegar scenester la croix photo booth iceland narwhal. Glossier deep v irony food truck 8-bit.\n\nCeliac cred locavore photo booth subway tile austin salvia farm-to-table taiyaki tbh unicorn tousled kombucha whatever humblebrag. Vegan flexitarian vexillologist whatever. Pour-over neutra YOLO typewriter ethical church-key. Coloring book squid synth single-origin coffee food truck XOXO hella messenger bag.\n\nVinyl viral selvage fam keytar four loko. Blog hashtag echo park cred, pork belly skateboard dreamcatcher retro irony poke. Affogato irony tbh plaid, kombucha green juice lyft neutra subway tile flannel pitchfork portland. Crucifix mlkshk leggings jean shorts locavore. Tbh fanny pack selvage cloud bread quinoa blog ramps. Before they sold out sriracha synth palo santo, PBR&B artisan beard. Vexillologist mixtape hashtag raw denim fam.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "3ea808c467cfa2045fe7eddcbabf581b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My First Post",
+        "path": "/first-post",
+        "date": "2019-01-29",
+        "tags": [
+          "this",
+          "that"
+        ],
+        "excerpt": "This is just a preview",
+        "_PARENT": "0700706a-be86-58f5-a3dd-77f6a92748d8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSlow-carb tacos fanny pack woke etsy migas asymmetrical selvage everyday carry banh mi viral flannel pabst man braid. Asymmetrical snackwave flannel iPhone, heirloom skateboard brooklyn PBR&B. Health goth brunch sartorial seitan you probably haven't heard of them fingerstache. Biodiesel tattooed retro typewriter. Etsy chia bicycle rights +1, truffaut trust fund chartreuse venmo heirloom drinking vinegar scenester la croix photo booth iceland narwhal. Glossier deep v irony food truck 8-bit.\n\nCeliac cred locavore photo booth subway tile austin salvia farm-to-table taiyaki tbh unicorn tousled kombucha whatever humblebrag. Vegan flexitarian vexillologist whatever. Pour-over neutra YOLO typewriter ethical church-key. Coloring book squid synth single-origin coffee food truck XOXO hella messenger bag.\n\nVinyl viral selvage fam keytar four loko. Blog hashtag echo park cred, pork belly skateboard dreamcatcher retro irony poke. Affogato irony tbh plaid, kombucha green juice lyft neutra subway tile flannel pitchfork portland. Crucifix mlkshk leggings jean shorts locavore. Tbh fanny pack selvage cloud bread quinoa blog ramps. Before they sold out sriracha synth palo santo, PBR&B artisan beard. Vexillologist mixtape hashtag raw denim fam.\n",
+      "fileAbsolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-21-first-post/index.md"
+    },
+    "5f338ec4-e0a6-5dd4-b59a-17f00977c761": {
+      "id": "5f338ec4-e0a6-5dd4-b59a-17f00977c761",
+      "children": [],
+      "parent": "4ed86f72-5dac-535b-9ddd-4b0006486b11",
+      "internal": {
+        "content": "\nSlow-carb tacos fanny pack woke etsy migas asymmetrical selvage everyday carry banh mi viral flannel pabst man braid. Asymmetrical snackwave flannel iPhone, heirloom skateboard brooklyn PBR&B. Health goth brunch sartorial seitan you probably haven't heard of them fingerstache. Biodiesel tattooed retro typewriter. Etsy chia bicycle rights +1, truffaut trust fund chartreuse venmo heirloom drinking vinegar scenester la croix photo booth iceland narwhal. Glossier deep v irony food truck 8-bit.\n\nCeliac cred locavore photo booth subway tile austin salvia farm-to-table taiyaki tbh unicorn tousled kombucha whatever humblebrag. Vegan flexitarian vexillologist whatever. Pour-over neutra YOLO typewriter ethical church-key. Coloring book squid synth single-origin coffee food truck XOXO hella messenger bag.\n\nVinyl viral selvage fam keytar four loko. Blog hashtag echo park cred, pork belly skateboard dreamcatcher retro irony poke. Affogato irony tbh plaid, kombucha green juice lyft neutra subway tile flannel pitchfork portland. Crucifix mlkshk leggings jean shorts locavore. Tbh fanny pack selvage cloud bread quinoa blog ramps. Before they sold out sriracha synth palo santo, PBR&B artisan beard. Vexillologist mixtape hashtag raw denim fam.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "60255dea06586683384db9ec611ec9a0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Third Post",
+        "path": "/third-post",
+        "date": "2019-01-29",
+        "tags": [
+          "this",
+          "that"
+        ],
+        "excerpt": "This is just the third preview",
+        "_PARENT": "4ed86f72-5dac-535b-9ddd-4b0006486b11"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSlow-carb tacos fanny pack woke etsy migas asymmetrical selvage everyday carry banh mi viral flannel pabst man braid. Asymmetrical snackwave flannel iPhone, heirloom skateboard brooklyn PBR&B. Health goth brunch sartorial seitan you probably haven't heard of them fingerstache. Biodiesel tattooed retro typewriter. Etsy chia bicycle rights +1, truffaut trust fund chartreuse venmo heirloom drinking vinegar scenester la croix photo booth iceland narwhal. Glossier deep v irony food truck 8-bit.\n\nCeliac cred locavore photo booth subway tile austin salvia farm-to-table taiyaki tbh unicorn tousled kombucha whatever humblebrag. Vegan flexitarian vexillologist whatever. Pour-over neutra YOLO typewriter ethical church-key. Coloring book squid synth single-origin coffee food truck XOXO hella messenger bag.\n\nVinyl viral selvage fam keytar four loko. Blog hashtag echo park cred, pork belly skateboard dreamcatcher retro irony poke. Affogato irony tbh plaid, kombucha green juice lyft neutra subway tile flannel pitchfork portland. Crucifix mlkshk leggings jean shorts locavore. Tbh fanny pack selvage cloud bread quinoa blog ramps. Before they sold out sriracha synth palo santo, PBR&B artisan beard. Vexillologist mixtape hashtag raw denim fam.\n",
+      "fileAbsolutePath": "/Users/seanhelmes/Desktop/blog/src/pages/2018-07-23-third-post/index.md"
+    },
+    "SitePage /tags": {
+      "jsonName": "tags-cd4",
+      "internalComponentName": "ComponentTags",
+      "path": "/tags",
+      "component": "/Users/seanhelmes/Desktop/blog/src/templates/allTagsIndex.js",
+      "componentChunkName": "component---src-templates-all-tags-index-js",
+      "context": {
+        "tags": [
+          "that",
+          "this"
+        ]
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/allTagsIndex.js",
+      "id": "SitePage /tags",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "295d54bc1bf74b0c80845fc28658cb9c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/that": {
+      "jsonName": "tags-that-90b",
+      "internalComponentName": "ComponentTagsThat",
+      "path": "/tags/that",
+      "component": "/Users/seanhelmes/Desktop/blog/src/templates/singleTagIndex.js",
+      "componentChunkName": "component---src-templates-single-tag-index-js",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/second-post",
+              "title": "Post #2",
+              "tags": [
+                "this",
+                "that"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/first-post",
+              "title": "My First Post",
+              "tags": [
+                "this",
+                "that"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/third-post",
+              "title": "Third Post",
+              "tags": [
+                "this",
+                "that"
+              ]
+            }
+          }
+        ],
+        "tagName": "that"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/singleTagIndex.js",
+      "id": "SitePage /tags/that",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2c78579015477b92ae5264a168124f51",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/this": {
+      "jsonName": "tags-this-80b",
+      "internalComponentName": "ComponentTagsThis",
+      "path": "/tags/this",
+      "component": "/Users/seanhelmes/Desktop/blog/src/templates/singleTagIndex.js",
+      "componentChunkName": "component---src-templates-single-tag-index-js",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/second-post",
+              "title": "Post #2",
+              "tags": [
+                "this",
+                "that"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/first-post",
+              "title": "My First Post",
+              "tags": [
+                "this",
+                "that"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/third-post",
+              "title": "Third Post",
+              "tags": [
+                "this",
+                "that"
+              ]
+            }
+          }
+        ],
+        "tagName": "this"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/singleTagIndex.js",
+      "id": "SitePage /tags/this",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "37d2d54cfbb7ff7b0197132f602721ba",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /second-post": {
+      "jsonName": "second-post-da0",
+      "internalComponentName": "ComponentSecondPost",
+      "path": "/second-post",
+      "component": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "pathSlug": "/second-post",
+        "prev": null,
+        "next": {
+          "frontmatter": {
+            "path": "/first-post",
+            "title": "My First Post",
+            "tags": [
+              "this",
+              "that"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js",
+      "id": "SitePage /second-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0c6314baf8ae1bdf2fdf8625cb2160b3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /first-post": {
+      "jsonName": "first-post-eb4",
+      "internalComponentName": "ComponentFirstPost",
+      "path": "/first-post",
+      "component": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "pathSlug": "/first-post",
+        "prev": {
+          "frontmatter": {
+            "path": "/second-post",
+            "title": "Post #2",
+            "tags": [
+              "this",
+              "that"
+            ]
+          }
+        },
+        "next": {
+          "frontmatter": {
+            "path": "/third-post",
+            "title": "Third Post",
+            "tags": [
+              "this",
+              "that"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cf242ef6cc3ca508b79345e2617b1bf7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /third-post": {
+      "jsonName": "third-post-f99",
+      "internalComponentName": "ComponentThirdPost",
+      "path": "/third-post",
+      "component": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "pathSlug": "/third-post",
+        "prev": {
+          "frontmatter": {
+            "path": "/first-post",
+            "title": "My First Post",
+            "tags": [
+              "this",
+              "that"
+            ]
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js",
+      "id": "SitePage /third-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "de6c2d018c103fef98cbe58d4b4bb373",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/seanhelmes/Desktop/blog/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "0fb7faaa-d70a-55a7-ad31-5a99cf6ce926",
+      "pluginCreatorId": "0fb7faaa-d70a-55a7-ad31-5a99cf6ce926",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9afcb65961a51cffaeafc5a992a0a14e",
+        "description": "0fb7faaa-d70a-55a7-ad31-5a99cf6ce926",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "07580d9c20fc031c47f2ac680377f015"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-header-js"
+      ],
+      "c9755586-8023-5c1a-84f6-35d26d2a3599": [
+        "/second-post"
+      ],
+      "ed2920b4-0771-5109-badf-891b0cfd055e": [
+        "/first-post"
+      ],
+      "5f338ec4-e0a6-5dd4-b59a-17f00977c761": [
+        "/third-post"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/",
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "776/path---index-6a9-VQ3FXuaqwUCLy03cVWPaBHv8w",
+    "sq--src-pages-index-js": 3501179355,
+    "sq--src-components-header-js": 3501179355,
+    "third-post-f99": "692/path---third-post-f-99-5fb-pCZUWBqIemY2J1vUdi6EEMXF7A",
+    "first-post-eb4": "795/path---first-post-eb-4-4f5-0Q0a716iF4bEGEYCSExwR9uhN8o",
+    "second-post-da0": "642/path---second-post-da-0-248-acwdmnfvgqg0X7gzjhYON414zM",
+    "tags-cd4": "437/path---tags-cd-4-e51-FwA9A3BVhCXOHgHBDEdlzxXMcw",
+    "tags-that-90b": "259/path---tags-that-90-b-339-r9bgV29kJ0ukhL01EBH1YmZQ40E",
+    "tags-this-80b": "114/path---tags-this-80-b-15d-Ti0txZ5X1O3siDnVz6z1RD8U"
+  },
+  "components": {
+    "/Users/seanhelmes/Desktop/blog/src/templates/allTagsIndex.js": {
+      "query": "",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/allTagsIndex.js"
+    },
+    "/Users/seanhelmes/Desktop/blog/src/templates/singleTagIndex.js": {
+      "query": "",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/singleTagIndex.js"
+    },
+    "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js": {
+      "query": "query usersSeanhelmesDesktopBlogSrcTemplatesBlogPostJs831079572(\n  $pathSlug: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $pathSlug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/templates/blogPost.js"
+    },
+    "/Users/seanhelmes/Desktop/blog/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/.cache/dev-404-page.js"
+    },
+    "/Users/seanhelmes/Desktop/blog/src/pages/index.js": {
+      "query": "query HomePageQuery {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          date\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-header-js": {
+      "name": "usersSeanhelmesDesktopBlogSrcComponentsHeaderJs3501179355",
+      "componentPath": "/Users/seanhelmes/Desktop/blog/src/components/Header.js",
+      "id": "sq--src-components-header-js",
+      "jsonName": "sq--src-components-header-js",
+      "query": "query usersSeanhelmesDesktopBlogSrcComponentsHeaderJs3501179355 {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
+      "hash": 3501179355
+    }
+  }
+}
